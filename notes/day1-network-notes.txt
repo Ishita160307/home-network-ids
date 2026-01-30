@@ -1,0 +1,5 @@
+Day 1 - Environment Setup
+- Installed Ubuntu Server 24.04 LTS in VirtualBox
+- Configured default NAT networking with DHCP
+- Enabled OpenSSH Server
+- Verified successful login and system stability
