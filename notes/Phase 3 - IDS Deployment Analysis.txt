@@ -1,0 +1,6 @@
+Phase 3 - IDS Deployment Analysis
+
+- Suricata was installed and deployed in IDS mode to monitor live network traffic on the primary network interface.
+- During testing, both normal traffic (ICMP and DNS) and scan-based traffic were generated. Suricata successfully decoded and processed packets, logging statistical, flow and protocol events to eve.json.
+- No alert events were triggered during this phase. This indicates that the observed traffic did not match any active alert rules and is consistent with expected behaviour for a clean and non-malicious network environment.
+- This phase confirms successful IDS deployment and establishes a monitored baseline prior to introducing custom detection rules.
