@@ -1,0 +1,8 @@
+Phase 4 - Custom IDS Rule Analysis
+
+- A custom Suricata detection rule was created to identify ICMP echo request packets.
+- The rule was designed using protocol-specific fields (ICMP type 8) and assigned a unique SID to ensure traceability.
+- Network traffic was captured using tcpdump and replayed through Suricata using PCAP analysis mode.
+- This method enabled reliable and repeatable testing of the custom rule in a virtualised environment.
+- The successful generation of alerts confirms correct rule syntax, effective rule loading and proper IDS processing.
+This phase demonstrates the ability to design, test and validate custom IDS signatures.

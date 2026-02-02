@@ -79,3 +79,28 @@ Suricata was executed in IDS mode on the primary network interface to observe an
 * This behaviour is consistent with non-malicious traffic and conservative default rule configurations
 
 The successful logging of traffic statistics and protocol data confirms that Suricata was correctly deployed and actively inspecting network traffic.
+
+
+
+\## Phase 4 - Custom Intrusion Detection Rule Development
+
+In this phase, a custom Suricata intrusion detection rule was developed to demonstrate signature-based detection and alert generation.
+
+A custom ICMP rule was written to detect ICMP echo request traffic. Live network traffic was first captured usin tcpdump and then replayed through Suricata using PCAP analysis mode. This approach allowed controlled, repeatable testing of the detection rule.
+
+
+
+\### Key Activities
+
+* Created a custom Suricata rule to detect ICMP echo requests
+* Assigned a unique SID to the custom rule for identification
+* Captured real network traffic using tcpdump
+* Replayed captured traffic through Suricata for offline analysis
+* Successfully triggered and verified alerts in both fast.log and eve.json
+
+
+
+\### Result
+
+* The custom rule successfully generated alerts when matching traffic was detected, confirming correct rule syntax, rule loading and IDS functionality.
+* This phase demonstrates practical understanding of signature-based intrusion detection and alert validation.
