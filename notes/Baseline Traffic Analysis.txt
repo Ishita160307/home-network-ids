@@ -1,0 +1,7 @@
+Baseline Traffic Analysis
+
+- During this phase, live network traffic was captured using tcpdump on the primary network interface (enp0s3).
+- ICMP echo request and echo reply packets were observed while generating traffic using the ping utility. This confirmed bidirectional communication between the host and external destinations.
+- DNS resolution traffic was also observed prior to ICMP communication, indicating normal name resolution behaviour.
+- No abnormal traffic patterns were detected during the capture. All observed traffic appeared consistent with expected baseline network activity for a freshly installed Ubuntu Server system.
+- This baseline will be used as a reference point for detecting anomalous or suspicious traffic in later IDS phases.
