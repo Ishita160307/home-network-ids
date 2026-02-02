@@ -1,4 +1,4 @@
-Day 2 - Network Behaviour Notes
+Phase 2 - Network Behaviour Analysis
 - Verified outbound connectivity using ping
 - Observed SSH listening on port 22 (primary exposed service).
 - DNS resolver is bound to loopback (127.0.0.53), not exposed externally
